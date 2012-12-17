@@ -55,7 +55,11 @@ public class RingerModeTile extends QuickSettingsTile {
         updateState();
 
         // Tile actions
+<<<<<<< HEAD
         mOnClick = new View.OnClickListener() {
+=======
+        onClick = new View.OnClickListener() {
+>>>>>>> Quick Settings : Fix Sound tile
             @Override
             public void onClick(View v) {
                 toggleState();
