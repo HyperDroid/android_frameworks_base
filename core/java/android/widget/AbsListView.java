@@ -819,7 +819,7 @@ public abstract class AbsListView extends AdapterView<ListAdapter> implements Te
         mTouchSlop = configuration.getScaledTouchSlop();
         mMinimumVelocity = configuration.getScaledMinimumFlingVelocity();
         mMaximumVelocity = configuration.getScaledMaximumFlingVelocity();
-        mDecacheThreshold = mMinimumVelocity;
+        mDecacheThreshold = mMinimumVelocity / 2;
         mOverscrollDistance = configuration.getScaledOverscrollDistance();
         mOverflingDistance = configuration.getScaledOverflingDistance();
 
