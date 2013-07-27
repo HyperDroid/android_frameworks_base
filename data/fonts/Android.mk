@@ -120,11 +120,6 @@ font_src_files := \
     Roboto-Bold.ttf \
     Roboto-Italic.ttf \
     Roboto-BoldItalic.ttf \
-    DroidSerif-Regular.ttf \
-    DroidSerif-Bold.ttf \
-    DroidSerif-Italic.ttf \
-    DroidSerif-BoldItalic.ttf \
-    DroidSansMono.ttf \
     Clockopia.ttf \
     AndroidClock.ttf \
     AndroidClock_Highlight.ttf \

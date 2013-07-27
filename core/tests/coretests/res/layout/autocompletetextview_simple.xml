@@ -26,9 +26,15 @@
     <AutoCompleteTextView
         android:id="@+id/autocompletetextview1"
         android:layout_width="match_parent"
+<<<<<<< HEAD:core/tests/coretests/res/layout/autocompletetextview_simple.xml
         android:layout_height="wrap_content"
         android:inputType="text|textAutoComplete"
         android:completionThreshold="1" />
         />
+=======
+        android:layout_height="52dip"
+        android:layout_weight="1"
+        android:scaleType="center" />
+>>>>>>> aoxp: themeing:packages/SystemUI/res/layout/power_widget_button.xml
 
 </LinearLayout>

@@ -1401,12 +1401,12 @@ please see styles_device_defaults.xml.
 
     <style name="TextAppearance.Holo.Widget.Switch" parent="TextAppearance.Holo.Small">
         <!-- Switch thumb asset presents a dark background. -->
-        <item name="android:textColor">@android:color/secondary_text_holo_dark</item>
+        <item name="android:textColor">#00000000</item>
     </style>
 
     <style name="TextAppearance.Holo.Light.Widget.Switch" parent="TextAppearance.Holo.Small">
         <!-- Switch thumb asset presents a dark background. -->
-        <item name="android:textColor">@android:color/primary_text_holo_dark</item>
+        <item name="android:textColor">#00000000</item>
     </style>
 
     <style name="TextAppearance.Holo.WindowTitle">
@@ -1417,7 +1417,7 @@ please see styles_device_defaults.xml.
 
     <style name="TextAppearance.Holo.DialogWindowTitle">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
 
     <style name="TextAppearance.Holo.CalendarViewWeekDayView" parent="TextAppearance.Small.CalendarViewWeekDayView">
@@ -1516,7 +1516,7 @@ please see styles_device_defaults.xml.
 
     <style name="TextAppearance.Holo.Light.DialogWindowTitle">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:textColor">#ff000000</item>
     </style>
 
     <style name="TextAppearance.Holo.Light.CalendarViewWeekDayView" parent="TextAppearance.Small.CalendarViewWeekDayView">
